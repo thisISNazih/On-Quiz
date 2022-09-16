@@ -1,0 +1,22 @@
+.actionButton {
+        padding: 1rem 0rem;
+        outline: none;
+        width: 170px;
+        font-size: 1rem; 
+        &__contained {
+            color: #fff;
+            background-color: #000; 
+            border: none;
+        } 
+        &__outlined {
+            color: #fff;
+            background-color: transparent; 
+            border: 1px solid white;
+        } 
+        &:focus{
+            cursor: pointer; 
+            opacity: 0.9;
+        } 
+
+    
+}
